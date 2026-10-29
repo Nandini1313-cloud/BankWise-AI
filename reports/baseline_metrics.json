@@ -1,0 +1,38 @@
+{
+    "model": "Logistic Regression",
+    "training_rows": 36168,
+    "test_rows": 9043,
+    "features_used": [
+        "age",
+        "job",
+        "marital",
+        "education",
+        "default",
+        "balance",
+        "housing",
+        "loan",
+        "contact",
+        "day",
+        "month",
+        "campaign",
+        "pdays",
+        "previous",
+        "poutcome"
+    ],
+    "excluded_duration_to_prevent_leakage": true,
+    "accuracy": 0.7548379962401858,
+    "precision_yes": 0.2662363856393707,
+    "recall_yes": 0.6238185255198487,
+    "f1_yes": 0.37319762510602206,
+    "roc_auc": 0.7722383533397332,
+    "confusion_matrix": [
+        [
+            6166,
+            1819
+        ],
+        [
+            398,
+            660
+        ]
+    ]
+}

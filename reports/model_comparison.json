@@ -1,0 +1,26 @@
+[
+    {
+        "model": "Logistic Regression",
+        "accuracy": 0.7548379962401858,
+        "precision_yes": 0.2662363856393707,
+        "recall_yes": 0.6238185255198487,
+        "f1_yes": 0.37319762510602206,
+        "roc_auc": 0.7722383533397332
+    },
+    {
+        "model": "Random Forest",
+        "accuracy": 0.8806811898706182,
+        "precision_yes": 0.488268156424581,
+        "recall_yes": 0.41304347826086957,
+        "f1_yes": 0.44751664106502814,
+        "roc_auc": 0.7912596041964316
+    },
+    {
+        "model": "Gradient Boosting",
+        "accuracy": 0.8942828707287405,
+        "precision_yes": 0.659375,
+        "recall_yes": 0.1994328922495274,
+        "f1_yes": 0.3062409288824383,
+        "roc_auc": 0.8021150834563389
+    }
+]

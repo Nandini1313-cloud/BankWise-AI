@@ -1,0 +1,12 @@
+Selected model: Random Forest
+
+                 precision    recall  f1-score   support
+
+No subscription     0.9238    0.9426    0.9331      7985
+   Subscription     0.4883    0.4130    0.4475      1058
+
+       accuracy                         0.8807      9043
+      macro avg     0.7060    0.6778    0.6903      9043
+   weighted avg     0.8728    0.8807    0.8763      9043
+
+ROC-AUC: 0.7913
